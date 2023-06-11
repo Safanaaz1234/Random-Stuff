@@ -8,13 +8,16 @@ function Navbar() {
   const [isNavbarOpen, setNavbar] = useState(false);
   const toggleNavbar = () => {
     setNavbar(!isNavbarOpen);
+    document.body.style.overflowY = isNavbarOpen ? "scroll" : "hidden";
   };
   return (
     <>
       <div className="w-full h-20 md:h-24 p-4 flex justify-between items-center relative shadow-md z-50">
         <div className="flex  w-1/4 items-center">
           <div className="w-14 md:w-16">
-            <img src={Kofe} alt="Kofe" className="md:cursor-pointer" />
+            <Link to="/">
+              <img src={Kofe} alt="Kofe" className="md:cursor-pointer" />
+            </Link>
           </div>
           <ul className="hidden md:flex md:justify-between md:w-1/3 md:h-24 items-center">
             <li className="md:h-24 pt-9 px-6 border-b border-transparent hover:border-b-4 hover:border-amber-800 md:cursor-pointer ml-12 hover:text-amber-800  uppercase font-mono ">

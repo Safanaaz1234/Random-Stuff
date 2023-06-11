@@ -6,6 +6,7 @@ import burrito from "../assets/burrito.jpg";
 import SmallBanner from "./SmallBanner";
 import foodPacket from "../assets/foodPacket.png";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -29,15 +30,17 @@ function Home() {
         fontFam="Dancing Script"
         reverse={false}
       />
-      <Banner
-        imgUrl="https://images.pexels.com/photos/15937218/pexels-photo-15937218/free-photo-of-plate-with-croissant.jpeg?auto=compress&cs=tinysrgb&w=600"
-        altVal="banner3"
-        colorVal="bg-cream"
-        content="Butter Bliss just dropped"
-        description="Introducing our buttery, flaky croissant baked to golden perfection"
-        fontFam="Dancing Script"
-        reverse={true}
-      />
+      <Link to="/menu/bakery">
+        <Banner
+          imgUrl="https://images.pexels.com/photos/15937218/pexels-photo-15937218/free-photo-of-plate-with-croissant.jpeg?auto=compress&cs=tinysrgb&w=600"
+          altVal="banner3"
+          colorVal="bg-cream"
+          content="Butter Bliss just dropped"
+          description="Introducing our buttery, flaky croissant baked to golden perfection"
+          fontFam="Dancing Script"
+          reverse={true}
+        />
+      </Link>
       <SmallBanner
         imgUrl="https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&cs=tinysrgb&w=600"
         altVal="banner4"

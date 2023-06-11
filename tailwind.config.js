@@ -11,6 +11,7 @@ module.exports = {
         skin: "#CE995E",
         lightbrown: "#DDBF9D",
         grey: "#CAC8BC",
+        lightgray: "#F9F9F9",
       },
     },
   },
