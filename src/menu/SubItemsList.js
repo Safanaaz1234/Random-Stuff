@@ -20,7 +20,6 @@ function SubItemsList() {
   const selected = FoodMenu.find((item) => {
     return item.category === category;
   });
-  console.log(selected);
   if (!selected) {
     return (
       <>
@@ -58,8 +57,9 @@ function SubItemsList() {
                 {selected.items.map((item) => {
                   return (
                     <SingleItem
+                      key={item.alt}
                       imgSrc={item.image}
-                      altVal={`product/${item.name}`}
+                      altVal={`product/${item.alt}`}
                       title={item.name}
                     />
                   );

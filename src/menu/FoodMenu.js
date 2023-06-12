@@ -23,10 +23,12 @@ const FoodMenu = [
       {
         name: "Tea",
         image: tea,
+        alt: "tea",
       },
       {
         name: "Tea Latte",
         image: teaLatte,
+        alt: "tea-latte",
       },
     ],
   },
@@ -36,6 +38,7 @@ const FoodMenu = [
       {
         name: "Chilled Coffee",
         image: coldCoffee,
+        alt: "cold-coffee",
       },
     ],
   },
@@ -45,18 +48,22 @@ const FoodMenu = [
       {
         name: "Espresso",
         image: coffee,
+        alt: "espresso",
       },
       {
         name: "Chocolate Espresso",
         image: chocoEspresso,
+        alt: "chocolate-espresso",
       },
       {
         name: "Capuccino",
         image: cappuccino,
+        alt: "cappuccino",
       },
       {
         name: "Americano",
         image: americano,
+        alt: "americano",
       },
     ],
   },
@@ -66,6 +73,7 @@ const FoodMenu = [
       {
         name: "Butterscotch Milkshake",
         image: milkshake,
+        alt: "butterscotch-milkshake",
       },
     ],
   },
@@ -75,6 +83,7 @@ const FoodMenu = [
       {
         name: "Blue Lagoon ",
         image: coldDrink,
+        alt: "blue-lagoon",
       },
     ],
   },
@@ -84,30 +93,37 @@ const FoodMenu = [
       {
         name: "Strawberry Delight",
         image: pastry,
+        alt: "strawberry-delight",
       },
       {
         name: "Chocolate Pastry",
         image: chocoPastry,
+        alt: "chocolate-pastry",
       },
       {
         name: "Macaroons",
         image: macaroons,
+        alt: "macaroons",
       },
       {
         name: "Golden Honey Pancakes",
         image: pancake,
+        alt: "golden-honey-pancakes",
       },
       {
         name: "Chocochip Cookies",
         image: cookie,
+        alt: "chocochip cookies",
       },
       {
         name: "Butter Bliss",
         image: croissant,
+        alt: "butter-bliss",
       },
       {
         name: "Chocolate Croissant",
         image: chocoCroissant,
+        alt: "chocolate-croissant",
       },
     ],
   },
@@ -117,6 +133,7 @@ const FoodMenu = [
       {
         name: "Grilled Cheese Sandwich",
         image: sandwich,
+        alt: "grilled-cheese-sandwich",
       },
     ],
   },
@@ -126,6 +143,7 @@ const FoodMenu = [
       {
         name: "Chinese Pasta",
         image: pasta,
+        alt: "chinese-pasta",
       },
     ],
   },
