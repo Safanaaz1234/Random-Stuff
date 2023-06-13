@@ -113,7 +113,7 @@ const FoodMenu = [
       {
         name: "Chocochip Cookies",
         image: cookie,
-        alt: "chocochip cookies",
+        alt: "chocochip-cookies",
       },
       {
         name: "Butter Bliss",

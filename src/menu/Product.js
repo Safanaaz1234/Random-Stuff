@@ -11,7 +11,9 @@ function Product() {
     return (
       <>
         <ResponsiveNavbar />
-        <div>We could not find the item you are looking for</div>
+        <div className="mt-6  p-10 text-black flex items-center justify-center flex-col lg:flex-row lg:justify-evenly  ">
+          We could not find the item you are looking for
+        </div>
         <Footer />
       </>
     );
@@ -19,7 +21,7 @@ function Product() {
   return (
     <>
       <ResponsiveNavbar />
-      <div className="border mt-6 bg-brown p-10 text-white flex items-center justify-center flex-col lg:flex-row lg:justify-evenly  ">
+      <div className="mt-6 bg-brown p-10 text-white flex items-center justify-center flex-col lg:flex-row lg:justify-evenly  ">
         <div className="w-56 md:w-72 pl-5 lg:ml-20 lg:w-80">
           <img src={selected.image} alt={selected.alt} />
         </div>

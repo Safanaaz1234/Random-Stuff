@@ -30,7 +30,7 @@ function Home() {
         fontFam="Dancing Script"
         reverse={false}
       />
-      <Link to="/menu/bakery">
+      <Link to="/menu/product/butter-bliss">
         <Banner
           imgUrl="https://images.pexels.com/photos/15937218/pexels-photo-15937218/free-photo-of-plate-with-croissant.jpeg?auto=compress&cs=tinysrgb&w=600"
           altVal="banner3"
