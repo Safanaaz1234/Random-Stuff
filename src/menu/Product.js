@@ -21,6 +21,7 @@ function Product() {
   return (
     <>
       <ResponsiveNavbar />
+
       <div className="mt-6 bg-brown p-10 text-white flex items-center justify-center flex-col lg:flex-row lg:justify-evenly  ">
         <div className="w-56 md:w-72 pl-5 lg:ml-20 lg:w-80">
           <img src={selected.image} alt={selected.alt} />
@@ -33,6 +34,9 @@ function Product() {
           {selected.name}
         </div>
       </div>
+      <button className="fixed right-2 border my-4 px-7 py-3 rounded-full cursor-default lg:cursor-pointer bg-brown text-white font-semibold text-lg z-10">
+        Add to Cart
+      </button>
       <Footer />
     </>
   );
